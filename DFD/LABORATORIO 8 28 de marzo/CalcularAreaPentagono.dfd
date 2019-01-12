@@ -1,0 +1,70 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+112
+'Programa para hallar el área de un pentágono regular a partir de su lado y radio de la circunferencia inscrita'
+4
+1
+25
+'Ingrese Lado (positivo)'
+5
+1
+4
+lado
+4
+1
+26
+'Ingrese radio (positivo)'
+5
+1
+5
+radio
+7
+0
+1
+6
+lado>0
+4
+1
+15
+'Lado inválido'
+13
+7
+0
+1
+7
+radio>0
+4
+1
+16
+'Radio inválido'
+13
+7
+0
+1
+10
+lado<radio
+4
+1
+29
+'Planteamiento inconsistente'
+13
+6
+1
+4
+Area
+37
+((lado*5)*sqrt((radio^2)-(lado^2)))/2
+4
+1
+41
+'El área es ',area, ' unidades cuadradas'
+13
+13
+13
+1
